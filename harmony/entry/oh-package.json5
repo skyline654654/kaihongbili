@@ -6,6 +6,6 @@
   "author": "BiliSail OpenHarmony port",
   "license": "GPL-3.0-only",
   "dependencies": {
-    "@ohos/flutter_ohos": "file:../flutter_ohos"
+    "@ohos/flutter_ohos": "file:../har/flutter.har"
   }
 }

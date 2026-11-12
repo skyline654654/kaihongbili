@@ -54,3 +54,6 @@ app.*.map.json
 /artifacts/
 
 promo-video/
+# Engine har is downloaded, not committed (19 MB binary)
+harmony/har/
+harmony/artifacts.zip
