@@ -24,7 +24,7 @@ class MacOSApplicationWindow {
     var requestingExit = false;
     return MacOSApplicationWindow(
       DetachedPlaybackWindow.create(
-        title: 'bili easy',
+        title: '开鸿哔哩',
         size: const Size(1120, 800),
         constraints: const BoxConstraints(minWidth: 420, minHeight: 560),
         onCloseRequested: () {

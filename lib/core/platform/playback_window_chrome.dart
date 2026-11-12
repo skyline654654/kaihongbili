@@ -42,7 +42,7 @@ class PlaybackWindowChrome extends StatelessWidget {
             child: const Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                'bili easy · 播放',
+                '开鸿哔哩 · 播放',
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: desktopCaptionTextStyle,

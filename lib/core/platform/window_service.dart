@@ -383,7 +383,7 @@ class WindowService {
       _handlesMainWindowClose = true;
       await _applicationExitChannel.invokeMethod<void>('setCloseHandler', true);
     }
-    await windowManager.setTitle('bili easy');
+    await windowManager.setTitle('开鸿哔哩');
     await windowManager.setMinimumSize(const Size(420, 560));
     if (hasCustomTitleBar) {
       await windowManager.setTitleBarStyle(TitleBarStyle.hidden);

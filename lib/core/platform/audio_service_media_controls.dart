@@ -87,7 +87,7 @@ final class AudioServiceMediaControls extends SystemMediaControls {
           id: state.id,
           title: state.title,
           artist: state.artist,
-          album: 'bili easy',
+          album: '开鸿哔哩',
           artUri: state.artUri,
           duration: state.isLive ? null : state.duration,
           isLive: state.isLive,

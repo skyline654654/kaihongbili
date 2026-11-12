@@ -191,7 +191,7 @@ class _WorkspacePlaybackWindowState extends State<WorkspacePlaybackWindow> {
     _input.configure(widget.shortcuts);
     final window = WindowServiceScope.maybeOf(context);
     return MaterialApp(
-      title: 'bili easy · 播放',
+      title: '开鸿哔哩 · 播放',
       theme: widget.theme,
       debugShowCheckedModeBanner: false,
       locale: const Locale('zh', 'CN'),

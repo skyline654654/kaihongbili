@@ -1,7 +1,7 @@
 {
   "string": [
-    { "name": "module_desc", "value": "bili easy 鸿蒙入口模块" },
+    { "name": "module_desc", "value": "开鸿哔哩 鸿蒙入口模块" },
     { "name": "EntryAbility_desc", "value": "哔帆，第三方哔哩哔哩客户端" },
-    { "name": "EntryAbility_label", "value": "bili easy" }
+    { "name": "EntryAbility_label", "value": "开鸿哔哩" }
   ]
 }

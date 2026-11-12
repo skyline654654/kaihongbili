@@ -348,7 +348,7 @@ final class _SettingsCategoryPageState
                                 _save(() => controller.setSystemFont(family)),
                           ),
                           Text(
-                            '字体预览：哔哩哔哩 · bili easy · Aa 0123456789',
+                            '字体预览：哔哩哔哩 · 开鸿哔哩 · Aa 0123456789',
                             style: TextStyle(fontFamily: s.fontFamily),
                           ),
                           const SizedBox(height: 20),
@@ -703,7 +703,7 @@ final class _AboutSettingsContent extends ConsumerWidget {
         const Text('一个专注观看体验的跨平台 Bilibili 第三方客户端'),
         ListTile(
           contentPadding: EdgeInsets.zero,
-          title: const Text('bili easy'),
+          title: const Text('开鸿哔哩'),
           subtitle: Text(
             version.value?.label ?? (version.hasError ? '版本信息暂不可用' : '正在读取版本…'),
           ),

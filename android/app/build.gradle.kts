@@ -84,7 +84,7 @@ android {
         // BiliSail application identity, shared with the MainActivity namespace.
         applicationId = "dev.bilisail.bilisail"
         applicationIdSuffix = if (isDevelopmentBuild) ".test" else null
-        manifestPlaceholders["bilisailAppLabel"] = if (isDevelopmentBuild) "bili easy 测试版" else "bili easy"
+        manifestPlaceholders["bilisailAppLabel"] = if (isDevelopmentBuild) "开鸿哔哩 测试版" else "开鸿哔哩"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 24

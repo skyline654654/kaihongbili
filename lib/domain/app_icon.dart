@@ -1,5 +1,5 @@
 enum AppIconPreference {
-  bilisail('bili easy', 'assets/branding/app_icon.png'),
+  bilisail('开鸿哔哩', 'assets/branding/app_icon.png'),
   bilibili('粉红小电视', 'assets/branding/bilibili_pink.png');
 
   const AppIconPreference(this.label, this.asset);

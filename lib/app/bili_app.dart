@@ -430,7 +430,7 @@ class _BiliAppState extends ConsumerState<BiliApp> {
     return ImageCacheBinding(
       cache: widget.dependencies.images,
       child: MaterialApp.router(
-        title: 'bili easy',
+        title: '开鸿哔哩',
         debugShowCheckedModeBanner: false,
         scrollBehavior: const SmoothScrollBehavior(),
         builder: (context, child) => WindowOrientationHost(

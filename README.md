@@ -1,4 +1,6 @@
-> **本仓库是 bili easy（上游 BiliSail）的仓颉 / 原生鸿蒙适配分支。** 在保留上游全部功能的前提下新增：
+> **致谢：感谢本仓库引用的全部开源代码的所有者（上游 BiliSail、bilibili-API-collect、SponsorBlock 社区、OpenHarmony 文档、OpenHarmony Flutter 等），本项目在你们的工作之上完成仓颉与原生鸿蒙适配。**
+>
+> **本仓库是「开鸿哔哩」（上游 BiliSail）的仓颉 / 原生鸿蒙适配分支。** 在保留上游全部功能的前提下新增：
 > 底栏中间「+」创作入口（视频 / 图文）、全局沉浸光感、广告屏蔽、AI 视频广告识别与一键跳过；
 > 并新增 `harmony/`（ArkTS 原生壳 + 系统材质底栏）与 `cangjie/`（仓颉核心，`@C` 导出）。
 >
@@ -8,7 +10,7 @@
 > ✅ 已实测（2026-11-02）：仓颉 `cjpm build` 通过且与 Dart 实现 8/8 逐行等价；鸿蒙 `hvigorw assembleHap` **BUILD SUCCESSFUL**；`codelinter` Errors 0；`flutter analyze` 0 issues；签名包由官方 `hap-sign-tool verify-app` 校验通过。**真机 / 云调试运行仍未做**，见 `docs/harmony-conformance.md` 第 5 节。
 
 <p align="center">
-  <img src="assets/branding/app_icon.png" width="144" height="144" alt="BiliSail 哔帆应用图标">
+  <img src="assets/branding/app_icon.png" width="144" height="144" alt="开鸿哔哩 应用图标">
 </p>
 
 <h1 align="center">bili easy</h1>
