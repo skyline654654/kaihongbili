@@ -93,4 +93,4 @@ hvigorw assembleHap --mode module -p product=default
 
 ArkUI 侧只负责壳与材质，业务布局仍然复用 Flutter 的同一套响应式规则，这是"一次开发多端部署"在本项目
 的落地方式：**同一份业务代码 + 两份薄的平台壳**。
-C:\Users\16857\Desktop\dsh\_bilisail\harmony-build-add.mdC:\Users\16857\Desktop\dsh\_bilisail\agc-note.md
+C:\Users\16857\Desktop\dsh\_bilisail\harmony-build-add.mdC:\Users\16857\Desktop\dsh\_bilisail\agc-note.mdC:\Users\16857\Desktop\dsh\_bilisail\har-doc.md
