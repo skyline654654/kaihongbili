@@ -3,14 +3,15 @@ import { FlutterPage } from '@ohos/flutter_ohos';
 /**
  * Flutter 视图在 ArkUI 里的宿主。
  *
- * 这是整个原生壳里**唯一**与 @ohos/flutter_ohos 版本强绑定的位置：
- * 不同版本的 har 导出的组件名可能是 `FlutterPage`（页面级）或
- * `FlutterView`（视图级）。接入选型时只需改这一处导入与标签。
+ * `viewId` 由 FlutterAbility 创建 FlutterView 后写进 LocalStorage，
+ * 页面通过 @LocalStorageLink 取到再传进来；不传 viewId 时 FlutterPage 找不到视图。
  */
 @Component
 export struct BilisailFlutterSurface {
+  @Prop viewId: string = '';
+
   build() {
-    FlutterPage()
+    FlutterPage({ viewId: this.viewId })
       .width('100%')
       .height('100%')
   }

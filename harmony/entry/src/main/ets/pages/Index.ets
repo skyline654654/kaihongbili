@@ -3,6 +3,9 @@ import { AvoidAreaSides } from '../harmony/AvoidAreaWatcher';
 import { BottomBarItem, WorkspaceBottomBar } from '../components/WorkspaceBottomBar';
 import { BilisailFlutterSurface } from '../flutter/BilisailFlutterSurface';
 
+// FlutterAbility 在 loadContent 时传入的 LocalStorage，里面带着 viewId。
+let storage = LocalStorage.getShared();
+
 /**
  * 鸿蒙侧的主页面：ArkUI 负责「壳」，Flutter 负责「内容」。
  *
@@ -12,9 +15,11 @@ import { BilisailFlutterSurface } from '../flutter/BilisailFlutterSurface';
  *    Flutter 侧通过 describe() 的 hostsBottomBar 得知不要再画底栏。
  * 3. 底栏高度 = 56vp + 手势条避让高度，由 AvoidAreaWatcher 实时回推。
  */
-@Entry
+@Entry(storage)
 @Component
 struct Index {
+  // 由 FlutterAbility 写入；引擎视图靠它挂载。
+  @LocalStorageLink('viewId') viewId: string = '';
   @State selectedIndex: number = 0;
   @State avoidBottom: number = 0;
   @State createSheetVisible: boolean = false;
@@ -105,7 +110,7 @@ struct Index {
   build() {
     Stack({ alignContent: Alignment.Bottom }) {
       // 内容区：Flutter 视图填满整屏，底栏浮在它上面。
-      BilisailFlutterSurface()
+      BilisailFlutterSurface({ viewId: this.viewId })
         .width('100%')
         .height('100%')
 
