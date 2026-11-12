@@ -63,10 +63,10 @@
 
 | 步骤 | 状态 |
 | --- | --- |
-| AGC 应用 | 已建：bili easy / APP ID 6917620749510987805 / dev.bilisail.client |
+| AGC 应用 | 已建：开鸿哔哩 / APP ID 6917620749510987805 / dev.bilisail.client |
 | 调试证书 | 已建：bilisail-debug（生效，2027-11-03），已下载 `harmony/signature/bilisail-debug.cer` |
 | 私钥 | 本机 keytool 生成 `harmony/signature/debug.p12`（EC P-256） |
 | 发布证书 | 已建：`bilisail-release`（生效，2029-11-03），已下载 `signature/bilisail-release.cer` |
-| 发布 Profile | 已建：`bilisail-release`（发布 / dev.bilisail.client / bili easy），已下载 `signature/bilisail-release.p7b` |
+| 发布 Profile | 已建：`bilisail-release`（发布 / dev.bilisail.client / 开鸿哔哩），已下载 `signature/bilisail-release.p7b` |
 | **签名 HAP** | **已产出并校验通过**：`entry-default-signed.hap`（314,749 B），`hap-sign-tool verify-app` 返回 Verify success |
 | 安装到设备 | 未做（发布 Profile 不含设备 UDID；侧载需设备信任该证书链） |

@@ -34,7 +34,7 @@
 | 字段 | 值 | 说明 |
 | --- | --- | --- |
 | `bundleName` | `dev.bilisail.client` | 与 AGC 应用、`AppScope/app.json5` 一致 |
-| `label` | `$string:app_name` | 指向已改为 bili easy 的字符串资源 |
+| `label` | `$string:app_name` | 指向已改为 开鸿哔哩 的字符串资源 |
 | `versionName` / `versionCode` | `1.2.6` / `1000260` | 与 `app.json5` 一致 |
 | `targetAPIVersion` | `260000026` | 编译用的 API 26 |
 | `compileSdkVersion` | `26.0.0.105` | HarmonyOS Command Line Tools 26.0.0.865 |

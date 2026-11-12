@@ -13,7 +13,7 @@
   <img src="assets/branding/app_icon.png" width="144" height="144" alt="开鸿哔哩 应用图标">
 </p>
 
-<h1 align="center">bili easy</h1>
+<h1 align="center">开鸿哔哩</h1>
 
 <p align="center">
   专注观看体验的跨平台 Bilibili 第三方客户端<br>
