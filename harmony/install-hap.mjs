@@ -4,7 +4,7 @@
 // 用法：
 //   OHOS_CLI=/path/to/command-line-tools node install-hap.mjs [hap路径]
 //
-// 默认安装在 dist/bili-easy-release-signed.hap；release Profile 不含设备 UDID，
+// 默认安装在 dist/kaihongbili-signed.hap；release Profile 不含设备 UDID，
 // 首次侧载时设备可能要求确认信任该证书链。
 import { execFileSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const hap = resolve(
-  process.argv[2] || join(here, 'dist', 'bili-easy-release-signed.hap'),
+  process.argv[2] || join(here, 'dist', 'kaihongbili-signed.hap'),
 );
 
 if (!existsSync(hap)) {

@@ -79,7 +79,7 @@ hvigorw assembleHap -p buildMode=release
 | --- | --- |
 | 构建 | `assembleHap -p buildMode=release` → **BUILD SUCCESSFUL** |
 | 未签名产物 | 235,991 B |
-| 签名产物 | `harmony/dist/bili-easy-release-signed.hap`，270,644 B |
+| 签名产物 | `harmony/dist/kaihongbili-signed.hap`，270,644 B |
 | SHA-256 | `dd4f280a36ff42c117137f40bebdd0f675c0c6747be3ce0367ba593ccd1cfcb7` |
 | 签名/校验 | `sign-app` success / `verify-app` success |
 | `module.json` | `debug=false`、`buildMode=release`、`targetAPIVersion=260000026`、`bundleName=dev.bilisail.client`、`metadata=ohos.arkui.UIMaterial.state:enable` |
