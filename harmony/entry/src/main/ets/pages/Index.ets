@@ -38,16 +38,16 @@ struct Index {
       selectedSymbol: $r('sys.symbol.square_grid_2x2')
     },
     {
+      id: 'shop',
+      label: '会员购',
+      symbol: $r('sys.symbol.bag'),
+      selectedSymbol: $r('sys.symbol.bag_fill')
+    },
+    {
       id: 'mine',
       label: '我的',
       symbol: $r('sys.symbol.person'),
       selectedSymbol: $r('sys.symbol.person_fill')
-    },
-    {
-      id: 'settings',
-      label: '设置',
-      symbol: $r('sys.symbol.gearshape'),
-      selectedSymbol: $r('sys.symbol.gearshape_fill')
     }
   ];
 
